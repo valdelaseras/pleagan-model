@@ -1,8 +1,9 @@
 {
   "name": "pleagan-model",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "model for pleagan app",
   "main": "index.js",
+  "types": "dist/index.d.ts",
   "repository": "https://github.com/valdelaseras/pleagan-model",
   "author": "Timothy Claassens <tim.claassens@gmail.com>",
   "contributors": [
