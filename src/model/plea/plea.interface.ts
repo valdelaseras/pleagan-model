@@ -1,5 +1,5 @@
-import { ICompany } from "../company/company.interface";
-import { IPleagan } from "../pleagan/pleagan.interface";
+import { ICompany } from "../company";
+import { IPleagan } from "../pleagan";
 import { PLEA_STATUS } from "./plea-status.enum";
 
 export interface IPlea {
