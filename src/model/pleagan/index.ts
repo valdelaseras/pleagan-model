@@ -1,1 +1,1 @@
-export * from "./pleagan.interface";
+export * from "./base";

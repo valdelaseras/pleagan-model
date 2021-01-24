@@ -1,7 +1,4 @@
-import { IProduct } from "../product/product.interface";
-
 export interface ICompany {
-  id: string;
+  id?: string;
   name: string;
-  products: IProduct[];
 }

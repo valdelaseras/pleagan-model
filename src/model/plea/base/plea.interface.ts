@@ -1,0 +1,17 @@
+import { ICompany } from "../../company";
+import { IPleagan } from "../../pleagan";
+import { PLEA_STATUS } from "../enum";
+import { IProduct } from "../../product";
+
+export interface IPlea {
+  id?: string;
+  status: PLEA_STATUS;
+  createdAt?: Date;
+  updatedAt?: Date;
+  company: ICompany;
+  initiator: IPleagan;
+  supporters: IPleagan[];
+  imageUrl: string;
+  nonVeganProduct: IProduct;
+  veganProduct?: IProduct;
+}
