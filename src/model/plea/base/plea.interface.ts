@@ -11,7 +11,6 @@ export interface IPlea {
   company: ICompany;
   initiator: IPleagan;
   supporters: IPleagan[];
-  imageUrl: string;
   nonVeganProduct: IProduct;
   veganProduct?: IProduct;
 }
