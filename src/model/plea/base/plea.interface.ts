@@ -4,7 +4,7 @@ import { PLEA_STATUS } from "../enum";
 import { IProduct } from "../../product";
 
 export interface IPlea {
-  id?: string;
+  id?: number;
   status: PLEA_STATUS;
   createdAt?: Date;
   updatedAt?: Date;
