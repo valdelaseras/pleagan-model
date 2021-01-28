@@ -1,7 +1,7 @@
 export interface IPleagan {
   id?: number;
   name: string;
-  email: string;
+  email?: string;
   message?: string;
-  location?: string;
+  country?: string;
 }
