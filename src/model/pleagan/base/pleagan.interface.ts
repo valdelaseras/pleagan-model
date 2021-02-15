@@ -1,7 +1,9 @@
 export interface IPleagan {
-  id?: number;
-  name: string;
-  email?: string;
+  uid: string;
+  emailVerified: boolean;
+  email: string;
+  photoUrl?: string;
+  displayName?: string;
   message?: string;
   country?: string;
 }
