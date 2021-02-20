@@ -1,7 +1,7 @@
 export interface IProduct {
   id?: number;
   name: string;
-  vegan?: boolean;
+  vegan: boolean;
   imageUrl?: string;
   animalIngredients?: string[];
 }
