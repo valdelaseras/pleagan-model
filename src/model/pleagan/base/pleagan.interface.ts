@@ -5,4 +5,5 @@ export interface IPleagan {
   photoUrl?: string;
   displayName?: string;
   country?: string;
+  // settings:
 }
