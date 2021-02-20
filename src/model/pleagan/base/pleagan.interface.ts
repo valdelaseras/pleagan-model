@@ -1,3 +1,5 @@
+import { IUserSettings } from "../settings/user-settings.interface";
+
 export interface IPleagan {
   uid: string;
   emailVerified: boolean;
@@ -5,5 +7,5 @@ export interface IPleagan {
   photoUrl?: string;
   displayName?: string;
   country?: string;
-  // settings:
+  settings: IUserSettings;
 }
