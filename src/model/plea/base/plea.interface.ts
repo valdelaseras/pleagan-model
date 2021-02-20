@@ -4,7 +4,7 @@ import { PLEA_STATUS } from "../enum";
 import { IProduct } from "../../product";
 
 export interface IPlea {
-  message: string;
+  description: string;
   status: PLEA_STATUS;
   company: ICompany;
   initiator: IPleagan;
