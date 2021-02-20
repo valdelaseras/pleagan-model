@@ -4,13 +4,14 @@ import { PLEA_STATUS } from "../enum";
 import { IProduct } from "../../product";
 
 export interface IPlea {
+  message: string;
+  status: PLEA_STATUS;
+  company: ICompany;
+  initiator: IPleagan;
+  nonVeganProduct: IProduct;
   id?: number;
-  status?: PLEA_STATUS;
   createdAt?: Date;
   updatedAt?: Date;
-  company?: ICompany;
-  initiator?: IPleagan;
   supporters?: IPleagan[];
-  nonVeganProduct?: IProduct;
   veganProduct?: IProduct;
 }
