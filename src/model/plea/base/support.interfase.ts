@@ -5,6 +5,5 @@ export interface ISupport {
   id?: number;
   createdAt?: Date;
   updatedAt?: Date;
-  plea: IPlea;
   supporter: IPleagan;
 }
