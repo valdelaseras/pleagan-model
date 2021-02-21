@@ -5,7 +5,7 @@ import { IPlea } from "../../../index";
 export interface IPleagan {
   uid: string;
   emailVerified: boolean;
-  email: string;
+  email?: string;
   photoUrl?: string;
   displayName?: string;
   country?: string;

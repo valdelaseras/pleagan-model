@@ -1,4 +1,4 @@
-import { IPlea, IPleagan } from "../../../index";
+import { IPleagan } from "../../../index";
 
 export interface ISupport {
   comment: string;
