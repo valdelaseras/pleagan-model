@@ -1,6 +1,8 @@
+import { IPleagan } from "../../../";
+
 export interface ISupport {
   comment: string;
-  pleaganUid?: string;
+  pleagan?: IPleagan;
   id?: number;
   createdAt?: Date;
   updatedAt?: Date;
