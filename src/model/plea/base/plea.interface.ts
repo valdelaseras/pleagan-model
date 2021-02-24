@@ -9,6 +9,7 @@ export interface IPlea {
   company: ICompany;
   nonVeganProduct: IProduct;
   initiatorUid?: string;
+  numberOfSupports: number;
   id?: number;
   createdAt?: Date;
   updatedAt?: Date;
