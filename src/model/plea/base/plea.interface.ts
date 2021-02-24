@@ -7,8 +7,8 @@ export interface IPlea {
   description: string;
   status: PLEA_STATUS;
   company: ICompany;
-  initiatorUid: string;
   nonVeganProduct: IProduct;
+  initiatorUid?: string;
   id?: number;
   createdAt?: Date;
   updatedAt?: Date;
