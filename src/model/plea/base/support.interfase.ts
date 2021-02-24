@@ -1,6 +1,6 @@
 export interface ISupport {
   comment: string;
-  supporterUid?: string;
+  pleaganUid?: string;
   id?: number;
   createdAt?: Date;
   updatedAt?: Date;
