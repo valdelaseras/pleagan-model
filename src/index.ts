@@ -4,6 +4,7 @@ import {
   IPleagan,
   IUserSettings,
   INotificationSettings,
+  THEME,
 } from "./model/pleagan";
 import { ICompany } from "./model/company";
 
@@ -16,4 +17,5 @@ export {
   ICompany,
   PLEA_STATUS,
   PLEA_TARGET,
+  THEME,
 };

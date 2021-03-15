@@ -1,4 +1,4 @@
-import { INotificationSettings } from "./notifications/notification-settings.interface";
+import { INotificationSettings } from "../../../index";
 
 export interface IUserSettings {
   notifications: {
