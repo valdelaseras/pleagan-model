@@ -5,6 +5,7 @@ export interface IUserSettings {
     push: INotificationSettings;
     email: INotificationSettings;
   };
+  countryPrivate: boolean;
   theme: THEME;
 }
 
