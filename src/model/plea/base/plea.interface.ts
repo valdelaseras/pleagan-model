@@ -10,6 +10,7 @@ export interface IPlea {
   company: ICompany;
   nonVeganProduct: IProduct;
   numberOfSupports: number;
+  userHasSupported: boolean;
   pleagan?: IPleagan;
   id?: number;
   createdAt?: Date;
