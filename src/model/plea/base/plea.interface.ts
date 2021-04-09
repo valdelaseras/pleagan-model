@@ -1,7 +1,7 @@
 import { ICompany } from "../../company";
 import { PLEA_STATUS } from "../enum";
 import { IProduct } from "../../product";
-import { ISupport } from "./support.interfase";
+import { ISupport } from "./support.interface";
 import { IPleagan } from "../../../index";
 
 export interface IPlea {

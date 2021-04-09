@@ -1,5 +1,5 @@
 import { IUserSettings } from "../settings";
-import { ISupport } from "../../plea/base/support.interfase";
+import { ISupport } from "../../plea/base/support.interface";
 
 export interface IPleagan {
   uid: string;
