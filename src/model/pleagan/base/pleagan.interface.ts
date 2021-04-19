@@ -1,4 +1,4 @@
-import { IUserSettings } from "../settings";
+import { IDevice, IUserSettings } from "../settings";
 import { ISupport } from "../../plea/base/support.interface";
 
 export interface IPleagan {
@@ -8,4 +8,5 @@ export interface IPleagan {
   country?: string;
   supports?: ISupport[];
   settings?: IUserSettings;
+  pushNotifications?: IDevice[];
 }
