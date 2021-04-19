@@ -1,9 +1,9 @@
 import { INotificationSettings } from "../../../index";
-import { Device } from "./notifications/device.interface";
+import { IDevice } from "./notifications/device.interface";
 
 export interface IUserSettings {
   email: INotificationSettings;
-  push: Device[];
+  push: IDevice[];
   countryPrivate: boolean;
   theme: THEME;
 }
