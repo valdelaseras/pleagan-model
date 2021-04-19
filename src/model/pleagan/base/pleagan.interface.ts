@@ -9,5 +9,5 @@ export interface IPleagan {
   country?: string;
   supports?: ISupport[];
   settings?: IUserSettings;
-  pushNotifications?: IDevice[];
+  devices?: IDevice[];
 }
