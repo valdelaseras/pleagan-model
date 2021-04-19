@@ -1,5 +1,4 @@
 export interface INotificationSettings {
-  enabled: boolean;
   myPleas: {
     onThreshold: boolean;
     onCompliance: boolean;
