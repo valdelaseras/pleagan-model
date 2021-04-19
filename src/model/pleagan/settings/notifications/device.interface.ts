@@ -1,7 +1,7 @@
-import { INotificationSettings } from './notification-settings.interface';
+import { INotificationSettings } from "./notification-settings.interface";
 
-export interface Device {
-    token: string;
-    uuid: string;
-    settings: INotificationSettings;
+export interface IDevice {
+  token: string;
+  uuid: string;
+  settings: INotificationSettings;
 }
