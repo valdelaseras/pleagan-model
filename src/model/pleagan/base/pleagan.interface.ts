@@ -1,5 +1,6 @@
-import { IDevice, IUserSettings } from "../settings";
+import { IUserSettings } from "../settings";
 import { ISupport } from "../../plea/base/support.interface";
+import { IDevice } from "./device.interface";
 
 export interface IPleagan {
   uid: string;
