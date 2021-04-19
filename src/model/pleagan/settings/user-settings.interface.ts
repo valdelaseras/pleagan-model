@@ -1,5 +1,4 @@
-import { INotificationSettings } from "../../../index";
-import { IDevice } from "./notifications/device.interface";
+import { IDevice, INotificationSettings } from "./notifications";
 
 export interface IUserSettings {
   email: INotificationSettings;
