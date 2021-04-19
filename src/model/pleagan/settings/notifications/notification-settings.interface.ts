@@ -1,15 +1,9 @@
 export interface INotificationSettings {
-  myPleas: {
-    onThreshold: boolean;
-    onCompliance: boolean;
-  };
-  supportedPleas: {
-    onThreshold: boolean;
-    onCompliance: boolean;
-  };
-  otherPleas: {
-    onNew: boolean;
-    onLocation: boolean;
-  };
+  myPleasOnThreshold: boolean;
+  myPleasOnCompliance: boolean;
+  supportedPleasOnThreshold: boolean;
+  supportedPleasOnCompliance: boolean;
+  otherPleasOnNew: boolean;
+  otherPleasOnLocation: boolean;
   news: boolean;
 }
