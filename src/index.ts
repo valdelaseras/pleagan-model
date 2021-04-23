@@ -5,6 +5,8 @@ import {
   IUserSettings,
   INotificationSettings,
   IDevice,
+  IInbox,
+  IMessage,
   THEME,
 } from "./model/pleagan";
 import { ICompany } from "./model/company";
@@ -17,6 +19,8 @@ export {
   IDevice,
   IProduct,
   ICompany,
+  IInbox,
+  IMessage,
   PLEA_STATUS,
   PLEA_TARGET,
   THEME,
