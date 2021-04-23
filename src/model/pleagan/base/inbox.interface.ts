@@ -1,4 +1,4 @@
-import { IMessage } from "./message.model";
+import { IMessage } from "./message.interface";
 
 export interface IInbox {
   messages: IMessage;
