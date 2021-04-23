@@ -3,6 +3,6 @@ export interface IMessage {
   text: string;
   url: string;
   opened: boolean;
-  updatedTimestamp: string;
-  createdTimestamp: string;
+  updatedAt: string;
+  createdAt: string;
 }
