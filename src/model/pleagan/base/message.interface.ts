@@ -1,3 +1,5 @@
+import { IPleagan } from "../../../index";
+
 export interface IMessage {
   subject: string;
   text: string;
@@ -5,4 +7,5 @@ export interface IMessage {
   opened: boolean;
   updatedAt: string;
   createdAt: string;
+  sender: IPleagan;
 }
